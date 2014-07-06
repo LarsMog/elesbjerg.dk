@@ -1,0 +1,180 @@
+/* Rød: #C41F44
+ * Grøn: #a3dad6
+ * */
+@font-face {
+	font-family: 'soho';
+	src: url('../fonts/SohoStd-Regular.otf');
+}
+@font-face {
+	font-family: 'sohothin';
+	src: url('../fonts/SohoStd-Thin.otf');
+}
+
+/* Typografi */
+
+.btn-red {
+  background-color: hsl(338, 91%, 39%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#db0a56", endColorstr="#bd084b");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#db0a56), to(#bd084b));
+  background-image: -moz-linear-gradient(top, #db0a56, #bd084b);
+  background-image: -ms-linear-gradient(top, #db0a56, #bd084b);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #db0a56), color-stop(100%, #bd084b));
+  background-image: -webkit-linear-gradient(top, #db0a56, #bd084b);
+  background-image: -o-linear-gradient(top, #db0a56, #bd084b);
+  background-image: linear-gradient(#db0a56, #bd084b);
+  border-color: #bd084b #bd084b hsl(338, 91%, 37.5%);
+  color: #fff !important;
+  /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.09);*/
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-green {
+  background-color: hsl(149, 100%, 73%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d1ffe7", endColorstr="#75ffb7");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#d1ffe7), to(#75ffb7));
+  background-image: -moz-linear-gradient(top, #d1ffe7, #75ffb7);
+  background-image: -ms-linear-gradient(top, #d1ffe7, #75ffb7);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d1ffe7), color-stop(100%, #75ffb7));
+  background-image: -webkit-linear-gradient(top, #d1ffe7, #75ffb7);
+  background-image: -o-linear-gradient(top, #d1ffe7, #75ffb7);
+  background-image: linear-gradient(#d1ffe7, #75ffb7);
+  border-color: #75ffb7 #75ffb7 hsl(149, 100%, 68.5%);
+  color: #333 !important;
+  /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.29);*/
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #C41F44;  
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #C41F44;
+  background-color: #a3dad6;
+}
+
+h1 {
+  color: #C41F44;
+}
+
+
+h3 {
+  color: #C41F44;
+  font-family: 'soho';
+}
+h3 a{
+  color: #C41F44;
+  text-decoration: none;
+}
+h3 a:hover{
+  text-decoration: none;
+  color: #C41F44;
+  background-color: #a3dad6;
+  
+}
+
+div.srfrContainer ul.srfrList li {
+  padding: 0px;
+}
+
+.srfrContainer p{
+  font-size: 10px;
+  margin: 0px;
+  padding:0px;
+  }
+
+.srfrContainer h3 {
+  font-size: 13px;
+  margin:0px;
+  padding:0px;
+}
+
+div.srfrContainer ul.srfrList li span.srfrFeedItemDate {
+  color:#000;
+  font-size: 10px;
+  font-weight: bold;
+  padding:0px;
+  margin: 0px;
+}
+
+
+h2 {
+  color: #C41F44;
+  font-family: 'soho';
+}
+
+
+h2 a{
+  color: #C41F44;
+  text-decoration: none;
+}
+h2 a:hover{
+  text-decoration: none;
+  color: #C41F44;
+  background-color: #a3dad6;
+  
+}
+/* Slider */
+.flexslider {
+  /*height:200px;
+  display:block;*/
+  margin: 0 0 10px;
+
+}
+.flex-caption {
+  background:none;
+  /*width:97.9%; */
+  padding:1%;
+  font-family: 'soho'; font-size: 26px;
+  color: #C41F44;
+  text-shadow: 1px 1px 3px #ccc
+}
+ 
+ /* Menu */
+.navbar-inner {
+  background-image: none;
+  background-color: transparent;
+  font-family: 'soho'; font-size: 16px;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.25), inset 0 -2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover, .navbar .nav li > a:hover {
+  background-color:#a3dad6;
+  color: #C41F44;
+}
+
+.navbar .nav > li {
+  margin-left: 35px;
+  margin-top: 30px;
+  color: #C41F44;
+}
+
+.navbar .nav > li > a {
+  color: #C41F44;
+  font-weight: lighter;
+}
+
+ul.menu {
+  float:right;
+}
+
+.btn-navbar .icon-bar {
+  width: 40px;
+  height: 4px;
+  margin: 5px;10px;
+}
+
+.btn-navbar {
+  background-color: #C41F44;
+  background-image: -moz-linear-gradient(top, #C41F44, #C41F44);
+  background-image: -ms-linear-gradient(top, #C41F44, #C41F44);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#C41F44), to(#C41F44));
+  background-image: -webkit-linear-gradient(top, #C41F44, #C41F44);
+  background-image: -o-linear-gradient(top, #C41F44, #C41F44);
+  background-image: linear-gradient(top, #C41F44, #C41F44);
+}
+  

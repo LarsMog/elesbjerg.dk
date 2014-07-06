@@ -1,0 +1,31 @@
+.date {
+	float: left;
+	/*height: 80px;*/
+	background: url(../img/kalender.png) no-repeat;
+	width: 63px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.day {
+	font-size: 26px;
+	clear: both;
+	display: block;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.weekday{
+	display: block;
+	clear: both;
+	color: #FFF;
+	font-size: 14px;
+	padding-top:14px;
+}
+
+.month {
+	display: block;
+	clear: both;
+	color: #FFF;
+	font-size: 13px;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.7">
+<name>redFORM dansk sprogpakke</name>
+<packagename>da-DK_redform</packagename>
+<version>2.5b2.1</version>
+<creationDate>2012-02-28</creationDate>
+<author>Ole Bang Ottosen redCOMPONENT</author>
+<authorEmail>ole@redcomponent.com</authorEmail>
+<authorUrl>www.redcomponent.com</authorUrl>
+<description>Dansk sprogpakke til redFORM</description>
+<files>
+	<file type="language" client="site" id="da-DK">site_da-DK.zip</file>
+	<file type="language" client="administrator" id="da-DK">admin_da-DK.zip</file>
+</files>
+</extension>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_WEBITALL_CONTACT_FORM_LBL_CONTACTFIELD_ID"
+                    readonly="true" class="readonly"
+                    description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_WEBITALL_CONTACT_FORM_LBL_CONTACTFIELD_CREATED_BY"
+            description="COM_WEBITALL_CONTACT_FORM_DESC_CONTACTFIELD_CREATED_BY"  /> 
+
+       <field name="name" type="text"
+                        
+            label="COM_WEBITALL_CONTACT_FORM_LBL_CONTACTFIELD_NAME"
+            description="COM_WEBITALL_CONTACT_FORM_DESC_CONTACTFIELD_NAME" 
+                        
+                        
+                         required="true" 
+            filter="safehtml" /> 
+
+       <field name="label" type="text"
+                        
+            label="COM_WEBITALL_CONTACT_FORM_LBL_CONTACTFIELD_LABEL"
+            description="COM_WEBITALL_CONTACT_FORM_DESC_CONTACTFIELD_LABEL" 
+                        
+                        
+                        
+            filter="safehtml" /> 
+
+       <field name="required" type="checkbox"
+                        
+            label="COM_WEBITALL_CONTACT_FORM_LBL_CONTACTFIELD_REQUIRED"
+            description="COM_WEBITALL_CONTACT_FORM_DESC_CONTACTFIELD_REQUIRED" 
+                        
+                        
+                        
+            value="1"
+            filter="raw" /> 
+
+       <field name="type" type="list"
+                        
+            label="COM_WEBITALL_CONTACT_FORM_LBL_CONTACTFIELD_TYPE"
+            description="COM_WEBITALL_CONTACT_FORM_DESC_CONTACTFIELD_TYPE" 
+                        
+                        
+                         required="true" 
+            filter="raw"
+            multiple="false">
+                <option value="text">Text</option>
+		<option value="textarea">Textbox</option>
+                <option value="number">Number</option>
+                <option value="checkbox">Checkbox</option>
+                <option value="email">Email</option>
+                <option value="list">List</option>
+        </field> 
+
+       <field name="options" type="text"
+                        
+            label="COM_WEBITALL_CONTACT_FORM_LBL_CONTACTFIELD_OPTIONS"
+            description="COM_WEBITALL_CONTACT_FORM_DESC_CONTACTFIELD_OPTIONS" 
+                        
+                        
+                        
+            filter="safehtml" /> 
+
+         <field
+                name="state"
+                type="list"
+                label="JSTATUS"
+                description="JFIELD_PUBLISHED_DESC"
+                class="inputbox"
+                size="1"
+                default="1">
+                <option value="1">JPUBLISHED</option>
+                <option value="0">JUNPUBLISHED</option>
+            </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+                <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>

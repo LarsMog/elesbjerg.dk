@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+
+              <field name="id" type="text" default="0" label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_ID"
+            readonly="true" class="readonly"
+            description="JGLOBAL_FIELD_ID_DESC" /> 
+
+       <field name="created_by" type="createdby" default="" 
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_CREATED_BY"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_CREATED_BY"  /> 
+
+       <field name="name" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_NAME"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_NAME" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="address" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_ADDRESS"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_ADDRESS" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="zip" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_ZIP"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_ZIP" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="city" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_CITY"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_CITY" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="phone" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_PHONE"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_PHONE" 
+                
+                
+                 /> 
+
+       <field name="mobile" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_MOBILE"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_MOBILE" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="workphone" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_WORKPHONE"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_WORKPHONE" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="email" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_EMAIL"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_EMAIL" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="email2" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_EMAIL2"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_EMAIL2" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="doublemember" type="checkbox"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_DOUBLEMEMBER"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_DOUBLEMEMBER" 
+                
+                
+                
+            value="1" /> 
+
+       <field name="gender" type="list"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_GENDER"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_GENDER" 
+                
+                
+                >
+                <option value="0">Ukendt</option>
+                <option value="m">Mand</option>
+                <option value="k">Kvende</option>
+        </field> 
+
+       <field name="created" type="calendar" class="inputbox"
+        
+        
+         default="0000-00-00" 
+        
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_CREATED"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_CREATED" 
+        filter="safehtml" /> 
+
+       <field name="birthyear" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_BIRTHYEAR"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_BIRTHYEAR" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="coname" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_CONAME"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_CONAME" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="memberstatus" type="list"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_MEMBERSTATUS"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_MEMBERSTATUS" 
+                
+                
+                >
+                <option value="0">Ukendt</option>
+                <option value="m">Medlem</option>
+                <option value="ø">Ønsker medlemskab</option>
+                <option value="u">Udmeldt</option>
+        </field> 
+
+       <field name="placename" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_PLACENAME"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_PLACENAME" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="postbox" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_POSTBOX"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_POSTBOX" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="education" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_EDUCATION"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_EDUCATION" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="job" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_JOB"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_JOB" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="union1" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_UNION1"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_UNION1" 
+                
+                
+                
+            menu_published="0"
+            filter="safehtml" /> 
+
+       <field name="affiliations" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_AFFILIATIONS"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_AFFILIATIONS" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="union2" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_UNION2"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_UNION2" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="affiliations_outside" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_AFFILIATIONS_OUTSIDE"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_AFFILIATIONS_OUTSIDE" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="materal" type="list"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_MATERAL"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_MATERAL" 
+                
+                
+                >
+                <option value="0">Ukendt</option>
+                <option value="nej">Ønsker ikke lokalt materiale</option>
+        </field> 
+
+       <field name="localnotes" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_LOCALNOTES"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_LOCALNOTES" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="localnotes2" type="text"
+                
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_LOCALNOTES2"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_LOCALNOTES2" 
+                
+                
+                
+            filter="safehtml" /> 
+
+       <field name="updated" type="calendar" class="inputbox"
+        
+        
+         default="0000-00-00" 
+        
+            label="COM_EHL_MEMBERS_FORM_LBL_MEDLEM_UPDATED"
+            description="COM_EHL_MEMBERS_FORM_DESC_MEDLEM_UPDATED" 
+        filter="safehtml" /> 
+
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
+    </field> 
+
+                        <field name="checked_out" type="hidden" filter="unset" />
+        <field name="checked_out_time" type="hidden" filter="unset" />
+
+	</fieldset>
+
+</form>
