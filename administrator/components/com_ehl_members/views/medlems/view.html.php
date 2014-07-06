@@ -39,7 +39,8 @@ class Ehl_membersViewMedlems extends JViewLegacy
         
 		$this->addToolbar();
         if( $this->getLayout() == 'map' ) {
-			$db = JFactory::getDbo();
+			// vis google maps
+            $db = JFactory::getDbo();
 			$query = $db->getQuery(true)
 				->select('*')
 				->from('#__ehl_members')
