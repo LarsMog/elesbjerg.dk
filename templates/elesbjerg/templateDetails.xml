@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="3.0" type="template" method="upgrade">
+	
+	<name>Elesbjerg</name>
+	<creationDate>24-10-2012</creationDate>
+	<author>Lars Mogensen</author>
+	<copyright>Copyright © 2013</copyright>
+	<authorEmail>larsmog@gmail.com</authorEmail>
+	<authorUrl>http://www.larsmog.dk</authorUrl>
+	<version>2.0</version>
+	<description>
+		
+		Template baseret på Bootstrap3
+		
+	</description>
+	
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>fonts</folder>
+		<folder>images</folder>
+		<folder>language</folder>
+		<folder>js</folder>
+		<filename>apple-touch-icon-57x57.png</filename>
+		<filename>apple-touch-icon-72x72.png</filename>
+		<filename>apple-touch-icon-114x114.png</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="language">
+		<language tag="da-DK">da-DK.tpl_webitall.ini</language>
+	</languages>
+	
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>debug</position>
+	</positions>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="BOOTSTRAP">
+				<field name="bootstrapcss" class="btn-group" type="radio" default="0" label="TPL_WEBITALLSKELETON_LABEL_BOOTSTRAP_CSS" description="TPL_WEBITALLSKELETON_DESC_BOOTSTRAP_CSS">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+  				<field name="bootstraptheme" class="btn-group" type="radio" default="0" label="TPL_WEBITALLSKELETON_LABEL_BOOTSTRAP_THEME" description="TPL_WEBITALLSKELETON_DESC_BOOTSTRAP_THEME">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+  				<field name="bootstrapjs" class="btn-group" type="radio" default="0" label="TPL_WEBITALLSKELETON_LABEL_BOOTSTRAP_JS" description="TPL_WEBITALLSKELETON_DESC_BOOTSTRAP_JS">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+			</fieldset>
+			<fieldset name="COMPATIBILITY">
+  			  <field name="modernizr" class="btn-group" type="radio" default="0" label="TPL_WEBITALLSKELETON_LABEL_MODERNIZR" description="TPL_WEBITALLSKELETON_DESC_MODERNIZR">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+			</fieldset>
+  			<fieldset name="FONTAWESOME">
+  				<field name="fontawesome" class="btn-group" type="radio" default="0" label="TPL_WEBITALLSKELETON_LABEL_FONTAWESOME" description="TPL_WEBITALLSKELETON_DESC_FONTAWESOME">
+  					<option value="0">JNO</option>
+  					<option value="1">JYES</option>
+  				</field>
+  			</fieldset>
+  			<fieldset name="GA">
+  				  <field name="ga" type="text" label="TPL_WEBITALLSKELETON_LABEL_GA" description="TPL_WEBITALLSKELETON_DESC_GA"></field>
+  				  <field name="gaurl" type="text" label="TPL_WEBITALLSKELETON_LABEL_GAURL" description="TPL_WEBITALLSKELETON_DESC_GAURL"></field>
+  			</fieldset>
+		</fields>
+	</config>	
+</extension>

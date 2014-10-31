@@ -2,162 +2,162 @@
 <form>
 	<fieldset>
 
-              <field name="id" type="text" default="0" label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ID"
-            readonly="true" class="readonly"
+              <field name="id" type="text" default="0" label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ID"
+            readonly="true" class="readonly"
             description="JGLOBAL_FIELD_ID_DESC" /> 
 
        <field name="created_by" type="createdby" default="" 
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_CREATED_BY"
             description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_CREATED_BY"  /> 
 
-       <field name="date" type="calendar" class="inputbox"
-        
-        
-         default="0000-00-00" 
+       <field name="date" type="calendar" class="inputbox"
+        
+        
+         default="0000-00-00" 
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_DATE"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_DATE" 
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_DATE" 
         filter="safehtml" /> 
 
-       <field name="members" type="text" size="40" class="inputbox"
+       <field name="members" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_MEMBERS"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_MEMBERS" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_MEMBERS" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="memberswants" type="text" size="40" class="inputbox"
+       <field name="memberswants" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_MEMBERSWANTS"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_MEMBERSWANTS" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_MEMBERSWANTS" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="gender_f" type="text" size="40" class="inputbox"
+       <field name="gender_f" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_GENDER_F"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_GENDER_F" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_GENDER_F" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="gender_m" type="text" size="40" class="inputbox"
+       <field name="gender_m" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_GENDER_M"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_GENDER_M" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_GENDER_M" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6600" type="text" size="40" class="inputbox"
+       <field name="zip6600" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6600"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6600" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6600" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6700" type="text" size="40" class="inputbox"
+       <field name="zip6700" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6700"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6700" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6700" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6705" type="text" size="40" class="inputbox"
+       <field name="zip6705" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6705"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6705" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6705" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6710" type="text" size="40" class="inputbox"
+       <field name="zip6710" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6710"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6710" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6710" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6715" type="text" size="40" class="inputbox"
+       <field name="zip6715" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6715"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6715" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6715" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6720" type="text" size="40" class="inputbox"
+       <field name="zip6720" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6720"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6720" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6720" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6731" type="text" size="40" class="inputbox"
+       <field name="zip6731" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6731"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6731" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6731" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6740" type="text" size="40" class="inputbox"
+       <field name="zip6740" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6740"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6740" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6740" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6760" type="text" size="40" class="inputbox"
+       <field name="zip6760" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6760"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6760" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6760" 
+        
+        
+        
         filter="safehtml" /> 
 
-       <field name="zip6771" type="text" size="40" class="inputbox"
+       <field name="zip6771" type="text" size="40" class="inputbox"
         
             label="COM_EHL_MEMBERS_FORM_LBL_UDVIKLING_ZIP6771"
-            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6771" 
-        
-        
-        
+            description="COM_EHL_MEMBERS_FORM_DESC_UDVIKLING_ZIP6771" 
+        
+        
+        
         filter="safehtml" /> 
 
-         <field
-        name="state"
-        type="list"
-        label="JSTATUS"
-        description="JFIELD_PUBLISHED_DESC"
-        class="inputbox"
-        size="1"
-        default="1">
-        <option value="1">JPUBLISHED</option>
-        <option value="0">JUNPUBLISHED</option>
+         <field
+        name="state"
+        type="list"
+        label="JSTATUS"
+        description="JFIELD_PUBLISHED_DESC"
+        class="inputbox"
+        size="1"
+        default="1">
+        <option value="1">JPUBLISHED</option>
+        <option value="0">JUNPUBLISHED</option>
     </field> 
 
-                        <field name="checked_out" type="hidden" filter="unset" />
+                        <field name="checked_out" type="hidden" filter="unset" />
         <field name="checked_out_time" type="hidden" filter="unset" />
 
 	</fieldset>

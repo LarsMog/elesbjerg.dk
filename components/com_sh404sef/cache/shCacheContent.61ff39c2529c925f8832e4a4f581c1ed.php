@@ -1,7 +1,7 @@
-<?php // shCache : URL cache file for sh404SEF
-  // version 4.4.0.1725
-  if (!defined('_JEXEC')) die('Direct Access to this location is not allowed.');
-  $shURLCacheCreationDate = 1400847484;
+<?php // shCache : URL cache file for sh404SEF
+  // version 4.4.0.1725
+  if (!defined('_JEXEC')) die('Direct Access to this location is not allowed.');
+  $shURLCacheCreationDate = 1400847484;
   
 $this->_urlCache['77db4c2fb2b3ba2bc5374c22068afa2a']='index.php?option=com_content&amp;Itemid=101&amp;format=feed&amp;lang=da&amp;type=rss&amp;view=featured#feed/rss/#0';
 $this->_urlCache['f2d7a78f84932cf4283183459250a488']='index.php?option=com_content&amp;Itemid=101&amp;format=feed&amp;lang=da&amp;type=atom&amp;view=featured#feed/atom/#0';
@@ -72,3 +72,5 @@ $this->_urlCache['4d664c5b2308eaad7c7d5332d088d9f5']='index.php?option=com_conte
 $shURLCacheCreationDate=1403008362;
 $this->_urlCache['9b125af1f1d8b844e438807e2df88618']='index.php?option=com_content&amp;Itemid=104&amp;catid=12&amp;id=49&amp;lang=da&amp;view=article#laserbreve/enhedslisten-folger-loven/#0';
 $shURLCacheCreationDate=1403763825;
+$this->_urlCache['fea1ca45ff30ea0d44fbc7d433c02bb2']='index.php?option=com_content&amp;Itemid=104&amp;catid=12&amp;id=50&amp;lang=da&amp;view=article#laserbreve/harald-borsting-og-dagpenge-katastrofen/#0';
+$shURLCacheCreationDate=1413535087;

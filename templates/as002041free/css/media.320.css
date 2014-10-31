@@ -1,74 +1,74 @@
-/***************************************************************************************/
-/*
-/*		Author: AS Designing
-/*		Author URI: http://www.asdesigning.com
-/*		Theme URI: http://www.astemplates.com
-/*		
-/*		Note: Design for a width of 320px - Mobile (Portrait)
-/*
-/***************************************************************************************/
-
-@media (max-width: 320px) 
-{
-
-	#logo span.slogan 
-	{
-		display: none;
-	}
-	
-	#header-row .moduletable.call-now div
-	{
-		padding: 10px 0px 0px;
-	}
-	
-	#header-row .moduletable.call-now
-	{
-		text-align: center;
-	}
-	
-	#header-row .mod-search_searchword 
-	{
-		width: 150px;
-	}
-	
-	#header-row .select-menu 
-	{
-		min-width: 203px !important;
-	}
-		
-	#slider-row .slider
-	{
-		margin-bottom: 0px;	
-	}
-	
-	.camera_caption a.readmore 
-	{
-		top: 40px;
-	}
-	
-	#footer #copyright-menu
-	{
-		float: left;
-		padding-top: 10px;
-	}
-	
-	.img-intro__left,
-	.img-full__left
-	{
-		float: none !important;
-		margin: 0 0 9px 0 !important;
-		width: 100%;
-	}
-	
-	.nspArt
-	{
-		width: 100% !important;
-		padding: 10px 10px 0 !important;
-	}
-	
-	div.subCategoryContainer
-	{
-		width: 100% !important;
-	}
-
+/***************************************************************************************/
+/*
+/*		Author: AS Designing
+/*		Author URI: http://www.asdesigning.com
+/*		Theme URI: http://www.astemplates.com
+/*		
+/*		Note: Design for a width of 320px - Mobile (Portrait)
+/*
+/***************************************************************************************/
+
+@media (max-width: 320px) 
+{
+
+	#logo span.slogan 
+	{
+		display: none;
+	}
+	
+	#header-row .moduletable.call-now div
+	{
+		padding: 10px 0px 0px;
+	}
+	
+	#header-row .moduletable.call-now
+	{
+		text-align: center;
+	}
+	
+	#header-row .mod-search_searchword 
+	{
+		width: 150px;
+	}
+	
+	#header-row .select-menu 
+	{
+		min-width: 203px !important;
+	}
+		
+	#slider-row .slider
+	{
+		margin-bottom: 0px;	
+	}
+	
+	.camera_caption a.readmore 
+	{
+		top: 40px;
+	}
+	
+	#footer #copyright-menu
+	{
+		float: left;
+		padding-top: 10px;
+	}
+	
+	.img-intro__left,
+	.img-full__left
+	{
+		float: none !important;
+		margin: 0 0 9px 0 !important;
+		width: 100%;
+	}
+	
+	.nspArt
+	{
+		width: 100% !important;
+		padding: 10px 10px 0 !important;
+	}
+	
+	div.subCategoryContainer
+	{
+		width: 100% !important;
+	}
+
 }

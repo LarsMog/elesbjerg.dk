@@ -1,5 +1,5 @@
-<?php // Extension params save file for sh404sef
-    //
+<?php // Extension params save file for sh404sef
+    //
     if (!defined('_JEXEC')) die('Direct Access to this location is not allowed.');
 $shConfig = array (
   'name' => 'sh404sef - System plugin',

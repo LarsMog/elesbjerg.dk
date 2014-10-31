@@ -1,3 +1,3 @@
-<?php
-if (!defined('_JEXEC')) die();
-?>
+<?php
+if (!defined('_JEXEC')) die();
+?>

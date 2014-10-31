@@ -91,9 +91,9 @@ $lang->load( 'com_webitall_contact', JPATH_ADMINISTRATOR );
 
         
 
-        <li><?php echo $this->form->getLabel('state'); ?>
-                    <?php echo $this->form->getInput('state'); ?></li><li><?php echo $this->form->getLabel('checked_out'); ?>
-                    <?php echo $this->form->getInput('checked_out'); ?></li><li><?php echo $this->form->getLabel('checked_out_time'); ?>
+        <li><?php echo $this->form->getLabel('state'); ?>
+                    <?php echo $this->form->getInput('state'); ?></li><li><?php echo $this->form->getLabel('checked_out'); ?>
+                    <?php echo $this->form->getInput('checked_out'); ?></li><li><?php echo $this->form->getLabel('checked_out_time'); ?>
                     <?php echo $this->form->getInput('checked_out_time'); ?></li>
     
         </ul>

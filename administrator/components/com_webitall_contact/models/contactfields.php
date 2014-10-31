@@ -111,23 +111,23 @@ class Webitall_contactModelcontactfields extends JModelList
 		);
 		$query->from('`#__webitall_contact_fields` AS a');
 
-
-            // Join over the users for the checked out user.
-            $query->select('uc.name AS editor');
-            $query->join('LEFT', '#__users AS uc ON uc.id=a.checked_out');
+
+            // Join over the users for the checked out user.
+            $query->select('uc.name AS editor');
+            $query->join('LEFT', '#__users AS uc ON uc.id=a.checked_out');
             
 		// Join over the created by field 'created_by'
 		$query->select('created_by.name AS created_by');
 		$query->join('LEFT', '#__users AS created_by ON created_by.id = a.created_by');
 
-
-            // Filter by published state
-            $published = $this->getState('filter.state');
-            if (is_numeric($published)) {
-                $query->where('a.state = '.(int) $published);
-            } else if ($published === '') {
-                $query->where('(a.state IN (0, 1))');
-            }
+
+            // Filter by published state
+            $published = $this->getState('filter.state');
+            if (is_numeric($published)) {
+                $query->where('a.state = '.(int) $published);
+            } else if ($published === '') {
+                $query->where('(a.state IN (0, 1))');
+            }
             
 
 		// Filter by search in title
